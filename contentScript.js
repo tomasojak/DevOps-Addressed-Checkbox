@@ -67,8 +67,6 @@ async function addCheckboxesToComments() {
 			checkbox.checked = !!result[commentId]; // (force boolean)
 		});
 
-		//container.append(checkbox); // Make a child of wrapper
-
 		comment.prepend(container);
 	});
 }
