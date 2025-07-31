@@ -11,7 +11,7 @@ You can follow the [temporary installation guide](https://extensionworkshop.com/
 To install the extension to keep it in your browser in between sessions:
 
 ## Chrome
-Refer to [[# Semi-temporary Installation# Chrome:]]
+Refer to the Semi-temporary Installation section.
 This procedure lets you keep the extension throughout sessions.
 ## Firefox
 Would require submitting the add-on to the extension store, which will be problematic to maintain. Is planned in possible future development.
