@@ -37,8 +37,6 @@ async function addCheckboxesToComments() {
 
 	timelineElements.forEach((timelineElement) => {
 
-		
-
 		// We want to access the first comment of the post, don't care about replies
 		const comment = timelineElement.querySelector(".repos-comment-viewer"); // Gets first (root) comment
 
