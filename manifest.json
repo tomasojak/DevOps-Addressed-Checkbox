@@ -8,6 +8,10 @@
 	{
 	"matches": ["https://dev.azure.com/*/_git/*/pullrequest/*"],
 	"js": ["contentScript.js"]
+	},
+	{
+	"matches": ["https://*.visualstudio.com/*/_git/MainRepo/pullrequest/*"],
+	"js": ["contentScript.js"]
 	}
 ],
 
@@ -24,6 +28,10 @@
 	{
 	"resources": ["checkboxTemplate.html"],
 	"matches": ["https://dev.azure.com/*"]
+	},
+	{
+	"resources": ["checkboxTemplate.html"],
+	"matches": ["https://*.visualstudio.com/*"]
 	}
 ],
 
